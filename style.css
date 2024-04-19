@@ -50,6 +50,7 @@ header div div{
 }
 header div div h2 {
     margin:10px 0;
+    font-size: 30px;
 }
 header div div p {
     text-align: start;
@@ -68,6 +69,7 @@ header div div ul {
 }
 header div div ul li {
     margin: 5%;
+    font-size: 22px;
 }
 section {
     width: 70%;
@@ -152,7 +154,32 @@ section div .el-menu ul li a {
     text-decoration: none;
     color: rgb(104, 40, 40);
 }
-section h1 {
+.arbol {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.arbol div {
+    display: flex;
+    flex-direction: column;
+}
+.arbol div h2 {
+    font-size: 40px;
+}
+.arbol div h3 {
+    font-size: 45px;
+}
+.imagenarbol {
+    display: flex;
+    justify-content: start;
+}
+.arbol img {
+    margin-top: 5%;
+    width: 400px;
+    height: 300px;
+}
+section div div h1 {
+    font-family: "Great Vibes"; 
     text-align: start;
     font-size: 100px;
     margin-top: 10%;
